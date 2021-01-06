@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation in JavaScript</title>
+    <script src="script.js" defer></script>
+    <!--<link href="main.css" type="text/css" rel="stylesheet" />-->
+  </head>
+  <body>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+      <h3>Login</h3>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" />
+      </div>
+      <br />
+      <label for="confirm_password">Confirm Password</label>
+      <input id="confirm_password" name="confirm_password" type="password" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
